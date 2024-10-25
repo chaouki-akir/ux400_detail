@@ -1,7 +1,7 @@
 /*global QUnit*/
 
 sap.ui.define([
-	"student18comsaptrainingux402listdetail/ux402_listdetail/controller/List.controller"
+	"student00comsaptrainingux402listdetail/ux402_listdetail/controller/List.controller"
 ], function (Controller) {
 	"use strict";
 

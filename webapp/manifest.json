@@ -1,7 +1,7 @@
 {
-  "_version": "1.65.0",
+  "_version": "1.37.0",
   "sap.app": {
-    "id": "student18.com.sap.training.ux402.listdetail.ux402listdetail",
+    "id": "student00.com.sap.training.ux402.listdetail.ux402listdetail",
     "type": "application",
     "i18n": "i18n/i18n.properties",
     "applicationVersion": {
@@ -12,8 +12,8 @@
     "resources": "resources.json",
     "sourceTemplate": {
       "id": "@sap/generator-fiori:basic",
-      "version": "1.15.2",
-      "toolsId": "bb0c3d40-daa8-44af-8709-696e48b304c6"
+      "version": "1.8.3",
+      "toolsId": "1bbf102e-9b2a-44db-b2e7-8c65f538d2b7"
     },
     "dataSources": {
       "mainService": {
@@ -46,10 +46,16 @@
   "sap.ui5": {
     "flexEnabled": true,
     "dependencies": {
-      "minUI5Version": "1.129.2",
+      "minUI5Version": "1.96.11",
       "libs": {
         "sap.m": {},
-        "sap.ui.core": {}
+        "sap.ui.core": {},
+        "sap.f": {},
+        "sap.suite.ui.generic.template": {},
+        "sap.ui.comp": {},
+        "sap.ui.generic.app": {},
+        "sap.ui.table": {},
+        "sap.ushell": {}
       }
     },
     "contentDensities": {
@@ -60,7 +66,7 @@
       "i18n": {
         "type": "sap.ui.model.resource.ResourceModel",
         "settings": {
-          "bundleName": "student18.com.sap.training.ux402.listdetail.ux402listdetail.i18n.i18n"
+          "bundleName": "student00.com.sap.training.ux402.listdetail.ux402listdetail.i18n.i18n"
         }
       },
       "": {
@@ -81,74 +87,75 @@
         "routerClass": "sap.m.routing.Router",
         "viewType": "XML",
         "async": true,
-        "viewPath": "student18.com.sap.training.ux402.listdetail.ux402listdetail.view",
+        "viewPath": "student00.com.sap.training.ux402.listdetail.ux402listdetail.view",
         "controlAggregation": "beginColumnPages",
         "controlId": "layout",
         "bypassed": {
-                        "target": [
-                                    "masterlist",
-                                    "notFound"
-                        ]
-        }  
+            "target": [
+                "masterlist",
+                "notFound"
+            ]
+        }
       },
       "routes": [
-                        {
-                            "name": "masterlist",
-                            "pattern": "",
-                            "titleTarget": "",
-                            "greedy": false,
-                            "target": [
-                                        "masterlist"
-                            ] 
-                        },
-                        {
-                            "name": "carrierdetails",
-                            "pattern": "Carriers/{objectId}",
-                            "titleTarget": "",
-                            "greedy": false,
-                            "target": [
-                                        "masterlist",
-                                        "carrierdetails"
-                            ]
-                        }
-      ] ,
+        {
+          "name": "masterlist",
+          "pattern": "",
+          "titleTarget": "",
+          "greedy": false,
+          "target": [
+              "masterlist"
+          ]       
+        },
+        {
+          "name": "carrierdetails",
+          "pattern": "Carriers/{objectId}",
+          "titleTarget": "",
+          "greedy": false,
+          "target": [
+              "masterlist",
+              "carrierdetails"
+          ]
+        }
+      ],
       "targets": {
         "masterlist": {
-                              "viewType": "XML",
-                              "transition": "slide",
-                              "ControlAggregation": "beginColumnPages",
-                              "viewId": "list",
-                              "viewName": "List",
-                              "viewLevel": 1
+          "viewType": "XML",
+          "transition": "slide",
+          "ControlAggregation": "beginColumnPages",
+          "viewId": "list",
+          "viewName": "List",
+          "viewLevel": 1
         },
         "carrierdetails": {
-                              "viewType": "XML",
-                              "transition": "slide",
-                              "viewLevel": 2,
-                              "controlAggregation": "midColumnPages",
-                              "viewName": "Detail",
-                              "viewId": "carrierdetails"
+          "viewType": "XML",
+          "transition": "slide",
+          "viewLevel": 2,
+          "controlAggregation": "midColumnPages",
+          "viewName": "Detail",
+          "viewId": "carrierdetails"
         },
         "notFound": {
-                              "viewType": "XML",
-                              "transition":"slide",
-                              "controlAggregation": "midColumnPages",
-                              "clearControlAggregation": true,
-                              "viewName": "NotFound",
-                              "viewId": "notFound"
+          "viewType": "XML",
+          "transition":"slide",
+          "controlAggregation": "midColumnPages",
+          "clearControlAggregation": true,
+          "viewName": "NotFound",
+          "viewId": "notFound"
+          
         },
         "detailObjectNotFound": {
-                                  "viewType": "XML",
-                                  "transition":"slide",
-                                  "controlAggregation": "midColumnPages",
-                                  "clearControlAggregation": true,
-                                  "viewName": "DetailObjectNotFound",
-                                  "viewId": "detailObjectNotFound"
-        }
+          "viewType": "XML",
+          "transition":"slide",
+          "controlAggregation": "midColumnPages",
+          "clearControlAggregation": true,
+          "viewName": "DetailObjectNotFound",
+          "viewId": "detailObjectNotFound"
+        }   
       }
     },
     "rootView": {
-      "viewName": "student18.com.sap.training.ux402.listdetail.ux402listdetail.view.App",
+      "viewName": "student00.com.sap.training.ux402.listdetail.ux402listdetail.view.App",
       "type": "XML",
       "async": true,
       "id": "App"

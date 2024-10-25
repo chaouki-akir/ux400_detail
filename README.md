@@ -1,18 +1,18 @@
 ## Application Details
 |               |
 | ------------- |
-|**Generation Date and Time**<br>Thu Oct 24 2024 14:01:18 GMT+0000 (Coordinated Universal Time)|
+|**Generation Date and Time**<br>Wed Dec 21 2022 13:34:00 GMT+0000 (Coordinated Universal Time)|
 |**App Generator**<br>@sap/generator-fiori-freestyle|
-|**App Generator Version**<br>1.15.2|
+|**App Generator Version**<br>1.8.3|
 |**Generation Platform**<br>SAP Business Application Studio|
 |**Template Used**<br>simple|
-|**Service Type**<br>File|
-|**Metadata File**<br>metadata.xml|
+|**Service Type**<br>SAP System (ABAP On Premise)|
+|**Service URL**<br>http://s4d.virtual:443/sap/opu/odata/sap/UX_TRAVEL_SRV
 |**Module Name**<br>ux402_listdetail|
 |**Application Title**<br>List-detail App|
-|**Namespace**<br>student18.com.sap.training.ux402.listdetail|
-|**UI5 Theme**<br>sap_horizon|
-|**UI5 Version**<br>1.129.2|
+|**Namespace**<br>student00.com.sap.training.ux402.listdetail|
+|**UI5 Theme**<br>sap_fiori_3|
+|**UI5 Version**<br>1.96.11|
 |**Enable Code Assist Libraries**<br>False|
 |**Enable TypeScript**<br>False|
 |**Add Eslint configuration**<br>False|

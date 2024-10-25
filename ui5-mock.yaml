@@ -1,8 +1,8 @@
 # yaml-language-server: $schema=https://sap.github.io/ui5-tooling/schema/ui5.yaml.json
 
-specVersion: "3.1"
+specVersion: "2.5"
 metadata:
-  name: student18.com.sap.training.ux402.listdetail.ux402listdetail
+  name: student00.com.sap.training.ux402.listdetail.ux402listdetail
 type: application
 server:
   customMiddleware:

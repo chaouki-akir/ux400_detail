@@ -40,7 +40,7 @@ sap.ui.define([
 								"tileType": "sap.ushell.ui.tile.StaticTile",
 								"properties": {
 									"title": "List-detail App",
-									"targetURL": "#student18comsaptrainingux402listdetailux402listdetail-display"
+									"targetURL": "#student00comsaptrainingux402listdetailux402listdetail-display"
 								}
 							}]
 						}]
@@ -51,8 +51,8 @@ sap.ui.define([
 				"adapter": {
 					"config": {
 						"inbounds": {
-							"student18comsaptrainingux402listdetailux402listdetail-display": {
-								"semanticObject": "student18comsaptrainingux402listdetailux402listdetail",
+							"student00comsaptrainingux402listdetailux402listdetail-display": {
+								"semanticObject": "student00comsaptrainingux402listdetailux402listdetail",
 								"action": "display",
 								"description": "A simple list-detail app.",
 								"title": "List-detail App",
@@ -61,8 +61,8 @@ sap.ui.define([
 								},
 								"resolutionResult": {
 									"applicationType": "SAPUI5",
-									"additionalInformation": "SAPUI5.Component=student18.com.sap.training.ux402.listdetail.ux402listdetail",
-									"url": sap.ui.require.toUrl("student18/com/sap/training/ux402/listdetail/ux402listdetail")
+									"additionalInformation": "SAPUI5.Component=student00.com.sap.training.ux402.listdetail.ux402listdetail",
+									"url": sap.ui.require.toUrl("student00/com/sap/training/ux402/listdetail/ux402listdetail")
 								}
 							}
 						}

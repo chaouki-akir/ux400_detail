@@ -1,5 +1,5 @@
 sap.ui.define([
-    "student18/com/sap/training/ux402/listdetail/ux402listdetail/controller/BaseController"
+    "student00/com/sap/training/ux402/listdetail/ux402listdetail/controller/BaseController"
 
 ],
     /**
@@ -8,7 +8,7 @@ sap.ui.define([
     function (Controller) {
         "use strict";
 
-        return Controller.extend("student18.com.sap.training.ux402.listdetail.ux402listdetail.controller.NotFound", {
+        return Controller.extend("student00.com.sap.training.ux402.listdetail.ux402listdetail.controller.NotFound", {
          
         });
     });

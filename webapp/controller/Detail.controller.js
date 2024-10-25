@@ -1,5 +1,5 @@
 sap.ui.define([
-    "student18/com/sap/training/ux402/listdetail/ux402listdetail/controller/BaseController",
+    "student00/com/sap/training/ux402/listdetail/ux402listdetail/controller/BaseController",
     "sap/ui/Device"
 
 ],
@@ -9,7 +9,7 @@ sap.ui.define([
     function (Controller, Device) {
         "use strict";
 
-        return Controller.extend("student18.com.sap.training.ux402.listdetail.ux402listdetail.controller.Detail", {
+        return Controller.extend("student00.com.sap.training.ux402.listdetail.ux402listdetail.controller.Detail", {
             onInit: function () {
                 this.getRouter().getRoute("carrierdetails").attachPatternMatched(this._onObjectMatched, this);
             },
